@@ -117,11 +117,17 @@ a{
     color: #3f3fca;
 }
 
+
 @media only screen and (max-width: 1024px) {
 
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
+	}
+	img{
+		width: 70%;
+  		height: auto;
+
 	}
 
 	header nav {
@@ -149,18 +155,15 @@ a{
 		top: 2rem;
 		right: 2rem;
 	}
+	.content {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
 
 	nav a {
 		font-size: 1.5rem;
 	}
 }
-@media screen and (max-width: 768px) {
-    .content {
-        grid-template-columns: 1fr; /* Single column for smaller screens */
-    }
 
-    /* You can adjust styles for left and right columns individually here */
-}
 
 .left-column {
     /* Styles for the left column */
@@ -169,5 +172,4 @@ a{
 .right-column {
     /* Styles for the right column */
     display: block;
-    background-color: #0d19c0;
 }

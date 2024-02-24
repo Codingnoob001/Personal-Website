@@ -1,7 +1,7 @@
 import React from "react";
-import "../Styles/main.css";
+import "../Styles/Home.css";
 
-function Content() {
+function Home() {
     return (
         <div className="content grid grid-cols-12 gap-4">
             <div className="col-span-12 md:col-span-6">
@@ -33,4 +33,4 @@ function Content() {
     );
 }
 
-export default Content;
+export default Home;
